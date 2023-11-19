@@ -1,0 +1,12 @@
+1.Настроить sudo
+
+в файл /etc/sudorrs добавить строку:
+
+useradmin  ALL=(ALL) NOPASSWD:ALL
+
+
+useradmin - это тот логин, под которым запускаем AdminCentr
+
+2.Сделать исполняемым файл adminc3.py
+
+chmod a+x adminc3.py
